@@ -31,6 +31,6 @@ variable "subscription_name" {
 }
 
 variable "subscription_id" {
-    type        = string
+  type        = string
   description = "The name of the Azure subscription to use for this deployment"
 }

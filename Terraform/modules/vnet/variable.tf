@@ -24,3 +24,9 @@ variable "subnets" {
   }))
   description = "Map of subnet names to configuration"
 }
+
+variable "tags" {
+  type        = map(string)
+  description = "Tags to apply to the Virtual Network"
+  default     = {}
+}

@@ -11,4 +11,5 @@ module "vnet" {
   vnet_name           = var.vnet_name
   address_space       = var.address_space
   subnets             = var.subnets
+  tags                = local.common_tags
 }
