@@ -4,6 +4,9 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+# Ignore Terraform provider binaries
+**/.terraform/
+*.exe
 
 # Crash log files
 crash.log
