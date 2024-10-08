@@ -1,7 +1,7 @@
 resource "azurerm_resource_group" "vnet_rg" {
   name     = var.resource_group_name
   location = var.location
-  tags     = locals.common_tags
+  tags     = local.common_tags
 }
 
 module "vnet" {

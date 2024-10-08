@@ -23,4 +23,4 @@ variable "subnets" {
     address_prefixes = list(string)
   }))
   description = "Map of subnet names to configuration"
-}   
+}

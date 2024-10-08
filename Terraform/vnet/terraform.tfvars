@@ -3,6 +3,7 @@ location            = "eastus"
 vnet_name           = "vnet-devops"
 address_space       = ["10.0.0.0/16"]
 subscription_name   = "Tech_With_Srujan"
+subscription_id     = "0c614c7a-ac19-478e-afef-4bdefcb5f09c"
 
 subnets = {
   subnet1 = {
